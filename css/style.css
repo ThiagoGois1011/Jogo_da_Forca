@@ -69,11 +69,16 @@ body{
 
 	background: #0A3871;
 	border-radius: 24px;
-	border-color: transparent;
+	border-color:transparent;
 	font-weight: bold;
 	font-size: 1em;
 	
 	
+}
+
+#novoJogo:active , #desistir:active, #iniciaJogo:active, #adiciona:active, #salvar:active, #cancelar:active {
+
+	background: gray;
 }
 
 #desistir {
