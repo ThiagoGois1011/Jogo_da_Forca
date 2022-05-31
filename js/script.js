@@ -24,7 +24,7 @@ var resultado;
 
 document.addEventListener("keypress" , function(evento){
 	var keycode = event.keyCode;
-	console.log(keycode)
+	
 	
 	if(keycode >= 65 && keycode <=90 || 
 		keycode >= 97 && keycode <=122 || 
@@ -68,7 +68,7 @@ function comecar(){
 	pincel.fillRect(65, 270, 350, 2);
 	variaveis();
 	traco(el);
-	console.log(resultado);
+	
 	novoJogo.style.display = "inline-block";
 	desistir.style.display = "inline-block";
 
