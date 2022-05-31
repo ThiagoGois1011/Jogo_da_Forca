@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Jogo da Forca</title>
+		<link rel="stylesheet"  href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<img class="logo" src="logo.png">
+		</header>
+		<main>
+			<button id="iniciaJogo">Iniciar Jogo</button>
+			<button id="adiciona">Adicionar nova palavra</button>
+			<div id="nova-palavra">
+				<textarea class="escreve" id="escreve" rows="6" cols="10" placeholder="Digite a nova palavra"></textarea>
+				<div class="aviso">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#808080" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+	  				<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+					</svg>
+					<p>Máx. 8 caracteres e palavras sem acento</p>
+				</div>
+				
+				<div>
+					<button id="salvar">Salvar e começar</button>
+					<button id="cancelar">Cancelar</button>
+				</div>
+				
+			</div>
+			<div id="tabuleiro">
+			</div>
+			<div class="button">
+				<button id="novoJogo">Novo Jogo</button>
+				<button id="desistir">Desistir</button>
+			</div>
+		
+			
+		</main>
+
+		<footer>
+			<p>&copy;DEV. Thiago dos Anjos Soares Gois &#128526;</p>
+		</footer>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

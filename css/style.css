@@ -1,0 +1,180 @@
+body{
+
+	background: #F3F5FC;
+
+}
+
+
+.logo{
+
+	margin: 30px 0 0 60px;
+
+}
+
+.canvas {
+	
+	
+	margin:auto;
+	display: block;
+}
+
+.aviso {
+	margin-top: 20px ;
+	width: 54%;
+}
+
+.aviso p {
+
+	display: inline;
+	font-size: 17px;
+	margin-top: 20px ;
+	vertical-align: top;
+	color: #808080;
+
+}
+
+#iniciaJogo{
+	
+	position: absolute;
+	padding: 10px;
+	left: 400px;
+	top: 200px;
+	width: 20%;
+	
+	text-align: center;
+	color: white;
+	background: #0A3871;
+	border-radius: 24px;
+	border-color: transparent ;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.button {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#novoJogo {
+	display: none;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-right: 40px ;
+
+	background: #0A3871;
+	border-radius: 24px;
+	border-color: transparent;
+	font-weight: bold;
+	font-size: 1em;
+	
+	
+}
+
+#desistir {
+	display: none;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	color: #0A3871;
+
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+}
+
+#adiciona {
+	position: absolute;
+	padding: 10px;
+	left: 400px;
+	top: 280px;
+	width: 20%;
+	
+	text-align: center;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+
+#nova-palavra {
+
+	display: none;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.escreve {
+	display: block;
+	margin: 50px 0 0;
+	width: 55%;
+	resize: none;
+	color: rgb(10,56,113);
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.escreve::placeholder{
+	color: rgba(10,56,113,0.7);
+
+}
+
+#salvar {
+
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	margin-right: 80px ;
+
+	background: #0A3871;
+	border-radius: 24px;
+	border-color: transparent;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+
+#cancelar {
+
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	color: #0A3871;
+
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+}
+
+footer {
+
+	position: absolute;
+	bottom: 0;
+	font-weight: bold;
+	color: #CED4DA;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	background:#343A40 ;
+
+}
