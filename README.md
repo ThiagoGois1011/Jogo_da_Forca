@@ -17,7 +17,7 @@ Caso o corpo seja desenhado totalmente, você perde.
 
 ## Projeto🏎️
 
-Acesse a página do projeto aqui: [Jogo da Forca]([https://thiagogois1011.github.io/pomodoro/](https://thiagogois1011.github.io/String-2/))
+Acesse a página do projeto aqui: [Jogo da Forca](https://thiagogois1011.github.io/Jogo_da_Forca/)
 
 ## Contanto
 Meu <a href="https://www.linkedin.com/in/thiago-gois-ba26b1238/" target="_blank">Linkedin</a>.
